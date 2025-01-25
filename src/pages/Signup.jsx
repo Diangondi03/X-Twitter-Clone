@@ -61,7 +61,7 @@ const Signup = () => {
   ];
 
   return (
-    <AuthLayout title="Sign Up for Twitter">
+    <AuthLayout title="Sign Up for X clone">
       <Formik
         initialValues={initialValues}
         validationSchema={SignupSchema}

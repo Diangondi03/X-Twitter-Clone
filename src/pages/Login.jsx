@@ -36,7 +36,7 @@ const Login = () => {
   };
 
   return (
-    <AuthLayout title="Login to Twitter">
+    <AuthLayout title="Login to X Clone">
       <Formik
         initialValues={initialValues}
         validationSchema={LoginSchema}
