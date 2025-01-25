@@ -1,0 +1,17 @@
+
+#root{
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+html {
+    scrollbar-gutter: stable;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 1000s ease-in-out 0s, color 1000s ease-in-out 0s;
+    transition-delay: background-color 1000s, color 1000s;
+}
+
